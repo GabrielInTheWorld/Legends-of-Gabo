@@ -1,6 +1,7 @@
 /* CSS declarations go here */
 body{
     height: 95vh;
+    padding: 0 20px 0 20px;
 }
 .list-group-item{
     color: #333;
@@ -15,7 +16,7 @@ body{
 }
 
 .matchfield{
-    height: 80%;
+    height: 80vh;
 }
 
 .matchfieldCell{
@@ -28,3 +29,8 @@ body{
     border-radius: 4px;
 }
 
+#chat{
+    border: 1px solid #CCC;
+    height: 150px;
+    overflow-y: auto;
+}
