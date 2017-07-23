@@ -48,7 +48,7 @@ textarea{
     border-radius: 4px;
     z-index: 1000;
     display: inline-block;
-    width: 70vh;
+    width: 74vh;
     /*display: grid;*/
 }
 
@@ -58,6 +58,25 @@ textarea{
 
 #chatComponent[active="true"] {
     opacity: 1;
+}
+
+#chatSendButton{
+    float: right;
+}
+
+#chatInput{
+    float: left;
+    width: 35vh;
+}
+
+#messageBlock{
+    float: left;
+    border-right: 1px solid #CCCCCC;
+    width: 35vh;
+    height: 26vh;
+    padding-right: 5px;
+    margin-right: 10px;
+    overflow: auto;
 }
 
 /*.chatComponent:active{*/
