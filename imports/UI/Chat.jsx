@@ -27,6 +27,7 @@ const FormGroup = bootstrap.FormGroup
 const ControlLabel = bootstrap.ControlLabel
 const FormControl = bootstrap.FormControl
 const Panel = bootstrap.Panel
+const ListGroup = bootstrap.ListGroup
 // const Grid = bootstrap.Grid
 // const Row = bootstrap.Grid
 // const Col = bootstrap.Col
@@ -87,7 +88,7 @@ class Chat extends Component{
         return(
             <div id="chatComponent">
                 <div id="messageBlock">
-                    <ul>{this.renderMessages()}</ul>
+                    <ListGroup>{this.renderMessages()}</ListGroup>
                 </div>
                 <div id="chatInput">
                     <FieldGroup

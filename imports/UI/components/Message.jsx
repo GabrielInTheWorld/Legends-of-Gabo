@@ -1,8 +1,8 @@
 import React, {Component, PropTypes} from 'react'
 import * as bootstrap from 'react-bootstrap'
 
-let listGroup = bootstrap.ListGroup
-let groupItem = bootstrap.ListGroupItem
+// let listGroup = bootstrap.ListGroup
+let ListGroupItem = bootstrap.ListGroupItem
 
 export default class Message extends Component{
     formatTime(time){
@@ -12,9 +12,9 @@ export default class Message extends Component{
 
     render(){
         return (
-            <li key={this.props.message.key}>
+            <ListGroupItem key={this.props.message.key}>
                 {this.formatTime(this.props.message.time)} - {this.props.message.message}
-            </li>
+            </ListGroupItem>
         )
     }
 }
